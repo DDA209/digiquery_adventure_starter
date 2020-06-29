@@ -1,0 +1,53 @@
+/**
+ * Main color: #2BAE66
+ * Secondary color: #FFFFFF
+ */
+body {
+  background: #2bae66;
+  color: #ffffff;
+}
+
+.navbar-brand img {
+  width: 70px;
+}
+
+.instructions {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.instructions p {
+  color: #cecece;
+}
+
+.instructions a {
+  color: lightgreen;
+}
+
+#exercise {
+  position: relative;
+  background-color: #ffffff;
+  height: 300px;
+  padding: 20px;
+  color: #000000;
+}
+
+#exercise #square {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000000;
+  background: green;
+  position: absolute;
+  margin: 10px;
+}
+
+#exercise #bg {
+  height: 200px;
+  width: 200px;
+  background-image: url(../img/background.jpg);
+  background-size: 600px;
+}
+
+code {
+  color: #ff76b5;
+}
